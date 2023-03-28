@@ -29,14 +29,14 @@
 
 .first-section {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 p:nth-child(2) {
     margin-top: 20px;
 }
 
-h1:nth-child(1) {
+h3 {
     width: 100%;
 }
 
@@ -46,6 +46,7 @@ h1:nth-child(1) {
     column-gap: 30px;
     row-gap: 15px;
     margin-top: 50px;
+    margin-bottom: 30px;
 }
 
 .input {
@@ -56,4 +57,23 @@ h1:nth-child(1) {
 
 input {
     height: 30px;
+}
+
+.footer {
+    padding-top: 30px;
+}
+
+.button {
+    width: 170px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 12px;
+    border: 0;
+    border-radius: 10px;
+    background-color: #002B5B;
+    color: #CBE4DE;
+}
+
+span {
+    color: #002B5B;
 }
