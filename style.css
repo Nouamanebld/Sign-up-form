@@ -1,8 +1,59 @@
-body {
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-img {
+.body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.left-section {
+    background-image: url(image.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 40vw;
+}
+
+.right-section {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60vw;
+    padding: 50px;
+}
+
+.first-section {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+p:nth-child(2) {
+    margin-top: 20px;
+}
+
+h1:nth-child(1) {
+    width: 100%;
+}
+
+.form {
+    display: flex;
+    flex-flow: row wrap;
+    column-gap: 30px;
+    row-gap: 15px;
+    margin-top: 50px;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
     width: 40%;
+}
+
+input {
+    height: 30px;
 }
